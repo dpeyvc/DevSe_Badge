@@ -9,7 +9,7 @@
 DevSe
 <img src="http://devse.gonetis.com:12475/devse_badge.svg" align="center">
 ```bash
-<img src="http://devse.gonetis.com:12475/badge.svg" align="center">
+<img src="http://devse.gonetis.com:12475/devse_badge.svg" align="center">
 ```
 
 Unknown
