@@ -5,7 +5,7 @@ def generate_svg_badge_with_embedded_logo(
     label="PRO",
     badge_color="#000000",
     text_color="#ffffff",
-    logo_file_path="logo/PRO_white.svg"  # 반드시 로컬 SVG 파일
+    logo_file_path="logo/pro_white.svg"  # 반드시 로컬 SVG 파일
 ):
     # SVG 배지 사이즈 설정
     badge_width = 78
@@ -46,7 +46,7 @@ if __name__ == "__main__":
         label="PRO",
         badge_color="#000000",
         text_color="#ffffff",
-        logo_file_path="logo/PRO_white.svg"
+        logo_file_path="logo/pro_white.svg"
     )
 
 # DevSe - #ffffff

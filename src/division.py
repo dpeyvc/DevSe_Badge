@@ -1,20 +1,20 @@
 import base64
 
 def generate_svg_badge_with_embedded_logo(
-    output_path="logo/unkown_badge.svg",
+    output_path="badge/division_badge.svg",
     label="unknown",
     badge_color="#000000",
     text_color="#ffffff",
-    logo_file_path="logo/unknown_white.svg"  # 반드시 로컬 SVG 파일
+    logo_file_path="logo/division.svg"  # 반드시 로컬 SVG 파일
 ):
     # SVG 배지 사이즈 설정
-    badge_width = 98
+    badge_width = 92
     badge_height = 28
-    logo_height = 30
+    logo_height = 22
     logo_x = 4
     logo_y = (badge_height - logo_height) / 2
-    text_x = 28
-    text_y = 18
+    text_x = 32
+    text_y = 18.5
 
     # SVG 파일을 Base64로 읽기
     with open(logo_file_path, "rb") as logo_file:
@@ -42,13 +42,9 @@ def generate_svg_badge_with_embedded_logo(
 # 예시 실행
 if __name__ == "__main__":
     generate_svg_badge_with_embedded_logo(
-        output_path="badge/unknown_badge.svg",
-        label="unknown",
+        output_path="../badge/division_badge.svg",
+        label="division",
         badge_color="#000000",
         text_color="#ffffff",
-        logo_file_path="logo/unknown_white.svg"
+        logo_file_path="../logo/division.svg"
     )
-
-# DevSe - #ffffff
-# 가온누리 - #2C2E76
-

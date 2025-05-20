@@ -1,7 +1,7 @@
 # 기존 SVG 로고 파일 경로
-original_logo_path = "logo/PRO.svg"
+original_logo_path = "logo/pro.svg"
 # 흰색으로 바꾼 SVG 저장 경로
-modified_logo_path = "logo/PRO_white.svg"
+modified_logo_path = "logo/pro_white.svg"
 
 # SVG 내용 불러와서 색상 교체
 with open(original_logo_path, "r", encoding="utf-8") as f:
