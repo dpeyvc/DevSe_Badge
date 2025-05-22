@@ -7,13 +7,13 @@
 ## 사용법
 
 DevSe
-<img src="http://devse.kr/badge.svg" align="center">
+<img src="http://devse.kr/devse_badge.svg" align="center">
 ```bash
 <img src="http://devse.kr/devse_badge.svg" align="center">
 ```
 
 Unknown
-<img src="http://devse.kr/unknown.svg" align="center">
+<img src="http://devse.kr/unknown_badge.svg" align="center">
 ```bash
 <img src="http://devse.kr/unknown_badge.svg" align="center">
 ```
