@@ -2,7 +2,7 @@ import base64
 
 def generate_svg_badge_with_embedded_logo(
     output_path="badge/division_badge.svg",
-    label="unknown",
+    label="Division",
     badge_color="#000000",
     text_color="#ffffff",
     logo_file_path="logo/division.svg"  # 반드시 로컬 SVG 파일
@@ -43,7 +43,7 @@ def generate_svg_badge_with_embedded_logo(
 if __name__ == "__main__":
     generate_svg_badge_with_embedded_logo(
         output_path="../badge/division_badge.svg",
-        label="division",
+        label="Division",
         badge_color="#000000",
         text_color="#ffffff",
         logo_file_path="../logo/division.svg"
