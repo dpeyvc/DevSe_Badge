@@ -1,5 +1,7 @@
 # DevSe Badge
 
+[![hits](https://hitmeup-backend-593087166771.asia-northeast1.run.app/api/count/increment?url=https%253A%252F%252Fgithub.com%252Fdpeyvc%252FDevSe_Badge&title=hits&title_bg=555555&count_bg=79c83d&edge_flat=false)](https://hitmeup-backend-593087166771.asia-northeast1.run.app)
+
 본 프로젝트는 DevSe 1대 연합회장 `엄지석`의 허락을 받아 제작하게 되었습니다.
 
 ## 사용법
